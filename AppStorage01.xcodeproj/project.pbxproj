@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4A9CC4EE2A0DE50C00D480B4 /* AppStorage01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CC4ED2A0DE50C00D480B4 /* AppStorage01App.swift */; };
-		4A9CC4F02A0DE50C00D480B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CC4EF2A0DE50C00D480B4 /* ContentView.swift */; };
+		4A9CC4F02A0DE50C00D480B4 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CC4EF2A0DE50C00D480B4 /* CurrencyView.swift */; };
 		4A9CC4F22A0DE50D00D480B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9CC4F12A0DE50D00D480B4 /* Assets.xcassets */; };
 		4A9CC4F52A0DE50D00D480B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9CC4F42A0DE50D00D480B4 /* Preview Assets.xcassets */; };
+		4A9CC4FC2A0DE51E00D480B4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CC4FB2A0DE51E00D480B4 /* Currency.swift */; };
+		4A9CC4FE2A0DEEFA00D480B4 /* EditCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9CC4FD2A0DEEFA00D480B4 /* EditCurrencyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A9CC4EA2A0DE50C00D480B4 /* AppStorage01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStorage01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9CC4ED2A0DE50C00D480B4 /* AppStorage01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage01App.swift; sourceTree = "<group>"; };
-		4A9CC4EF2A0DE50C00D480B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A9CC4EF2A0DE50C00D480B4 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		4A9CC4F12A0DE50D00D480B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9CC4F42A0DE50D00D480B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A9CC4FB2A0DE51E00D480B4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		4A9CC4FD2A0DEEFA00D480B4 /* EditCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCurrencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				4A9CC4ED2A0DE50C00D480B4 /* AppStorage01App.swift */,
-				4A9CC4EF2A0DE50C00D480B4 /* ContentView.swift */,
+				4A9CC5432A11E39800D480B4 /* Models */,
+				4A9CC5442A11E3A300D480B4 /* Views */,
 				4A9CC4F12A0DE50D00D480B4 /* Assets.xcassets */,
 				4A9CC4F32A0DE50D00D480B4 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				4A9CC4F42A0DE50D00D480B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A9CC5432A11E39800D480B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A9CC4FB2A0DE51E00D480B4 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A9CC5442A11E3A300D480B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9CC4EF2A0DE50C00D480B4 /* CurrencyView.swift */,
+				4A9CC4FD2A0DEEFA00D480B4 /* EditCurrencyView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9CC4F02A0DE50C00D480B4 /* ContentView.swift in Sources */,
+				4A9CC4FC2A0DE51E00D480B4 /* Currency.swift in Sources */,
+				4A9CC4F02A0DE50C00D480B4 /* CurrencyView.swift in Sources */,
+				4A9CC4FE2A0DEEFA00D480B4 /* EditCurrencyView.swift in Sources */,
 				4A9CC4EE2A0DE50C00D480B4 /* AppStorage01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
